@@ -7,6 +7,7 @@ RUN apt update -y && apt upgrade -y
 RUN apt install -y \
 	net-tools \
 	dnsutils \
+	iputils-ping \
 	whois \
 	curl \
 	wget \
